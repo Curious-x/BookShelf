@@ -1,66 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# BookShelf: Digital Learning Platform for NUST Students
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Executive Summary
 
-## About Laravel
+This report outlines the final implementation of a digital learning platform designed to address the challenges faced by NUST (National University of Sciences and Technology) students in accessing and affording educational materials. The platform aims to provide an affordable and convenient solution for accessing course-related eBooks and mitigating the economic and technological barriers faced by students.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Problem Analysis
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Target Audience
+The primary target audience for the digital learning platform is university students, with a focus on NUST students as early adopters.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Books Usage Pattern
+- University students require course textbooks for specific topics within a semester.
+- Limited availability of hard copies in the central library, leading to accessibility issues.
+- Electronic versions of required books are often unavailable.
 
-## Learning Laravel
+### Economic Barrier
+- Access to books is expensive.
+- Traditional subscription plans are costly.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Technological Inconvenience & Further Economic Barrier
+- Students need books from different publishers, increasing costs.
+- Dealing with multiple applications for accessing ebooks raises economic barriers.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Current Situation
+- Widespread use of pirated books, impacting students' moral values.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Proposed Solution
 
-## Laravel Sponsors
+### Overview
+The proposed solution is a single platform offering bundled eBooks at an affordable price, tailored to semester requirements. The platform includes additional educational tools and establishes partnerships with publishers for reduced prices.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Technological Specifications
+A cloud-based solution accessible through mobile, desktop, and web applications. Digital Rights Management, user access management, and data synchronization across devices are key features.
 
-### Premium Partners
+### Key Features
+1. Digital Rights Management
+2. User Access Management
+3. Synchronization of User Data Across Devices
+4. Web-Based eBook Store
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Requirement Specifications – Web Application
 
-## Contributing
+### 1. User Signup / Login
+- Secure and user-friendly authentication process.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 2. Homepage
+- Displays owned eBooks categorized by lifetime purchase and semester-limited purchase.
+- Transaction history and website settings.
+- Device information for logged-in devices.
 
-## Code of Conduct
+### 3. Access Owned eBooks
+- Features for highlighting text, adding comments, and inserting notes.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 4. Search Books & Bundles
+- Filters for owned, latest edition, and different educational domains.
 
-## Security Vulnerabilities
+### 5. Advanced Search Features
+- Combination of search by title, author, and publisher.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Conclusion
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The digital learning platform addresses the challenges faced by university students, particularly NUST students, providing an efficient and cost-effective solution for accessing educational materials. The implementation of the proposed features ensures a seamless user experience, promoting legal and ethical use of educational resources. The project aims to contribute positively to the academic journey of students by eliminating barriers to access and fostering a culture of responsible learning.
